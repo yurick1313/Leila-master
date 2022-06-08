@@ -1,0 +1,130 @@
+#header{
+	background: url(./img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 30px;
+}
+.navbar-brand{
+	margin-top: -7px;
+}
+.header-navbar{
+	background: transparent;
+	border: transparent;
+	margin-top: 20px !important;
+} 
+.header-navbar-right>li>a{
+	color: white !important;
+}
+.header-button a{
+color: red !important;
+border:1px solid red;
+border-radius: 30px;
+padding: 5px 10px !important;
+margin: 10px;
+}
+.header-title{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px;;
+}
+.header-title h1{
+	color: white;
+	white-space: nowrap;
+	margin-left: -30px;
+}.header-title p{
+	color: white;
+	margin-top: 20px;
+}
+.header-search{
+	width: 40%;
+	margin: 50px auto 80px auto;
+}
+.search{
+	width: 80%;
+	padding: 7px;
+	border-radius: 20px 0 0 20px;
+	border-color: transparent;
+}
+.submit{
+width: 20%;
+margin-left: -5px;
+padding: 7px;
+border-radius: 0 20px 20px 0;
+color: white;
+background-color: red;
+border-color: transparent;
+}
+.header-chat{
+	width: 30%;
+	margin: auto;
+}
+.header-chat>div{
+	background: white;
+	border-radius: 20px;
+	margin: 20px 0;
+	position: relative;
+	height: 80px;
+}
+.chat-left{
+	left: -35px;
+	text-align: left;
+	padding: 20px 30px 20px 40px;
+	width: 300px;
+}
+.chat-right{
+	right: -90px;
+	position: absolute;
+	width: 300px;
+	padding: 20px 30px 20px 30px;
+	text-align: left;
+	margin-top: 40px !important;
+}
+.chat-left img{
+	position: absolute;
+	left: -40px;
+	top: 5px;
+	width: 70px;
+}
+.chat-right img{
+	position: absolute;
+	right: -40px;
+	top: 5px;
+	width: 70px;
+}
+
+@media(max-width:425px){
+	.header-button a{
+		width: 120px;
+		border-radius: 15px;
+	}
+	.header-title{
+		margin-top: 40px;
+	}
+	.header-title h1{
+		white-space: normal;
+		margin-right: -20px;
+	}
+	.header-title p{
+		text-align: left;
+	}
+	.header-search{
+	width: 80%;
+	}
+	.search{
+		width: 70%;
+	}
+	.submit{
+		width: 30%;
+	}
+	.chat-left{
+		position: absolute;
+		left: -70px;
+	}
+	.chat-right{
+		position: absolute;
+		left: -100px ;
+	}
+}
+
