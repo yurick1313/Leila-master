@@ -70,15 +70,20 @@ border-color: transparent;
 	height: 80px;
 	width: 80%;
 }
+.header-chat p{
+	width: 80%;
+	margin: 10px auto;
+}
 .chat-left{
 	text-align: left;
-	padding: 20px 30px 20px 40px;
 	position: absolute;
 	left: -60px;
 }
+.chat-left p{
+	padding: 5px;
+}
 .chat-right{
 	text-align: left;
-	padding: 20px 30px 20px 40px;
 	position: absolute;
 	right: -60px;
 }
@@ -121,4 +126,28 @@ border-color: transparent;
 .submit{
 	width: 30%;
 }
+}
+@media(max-width:768px){
+.header-search{
+	width: 80%;
+	}	
+	.header-chat{
+		width: 70%;
+	}
+	.chat-left{
+		position: absolute;
+		left: 0;
+	}
+	.chat-right{
+		position: absolute;
+		right: 0;
+}
+}
+@media(max-width:1024px){
+	.search{
+		width: 70%;
+	}
+	.submit{
+		width: 30%;
+	}
 }
