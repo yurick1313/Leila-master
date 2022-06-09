@@ -62,7 +62,7 @@ border-color: transparent;
 	width: 30%;
 	margin: auto;
 }
-.header-chat>div{
+.header-chat div{
 	background: white;
 	border-radius: 20px;
 	margin: 20px auto;
