@@ -99,6 +99,23 @@ border-color: transparent;
 	top: 5px;
 	width: 70px ;
 }
+.strip{
+	border-bottom: 2px solid whitesmoke;
+	margin: 80px 80px;
+}
+.subtitle{
+	width: 30%;
+	margin: auto;
+	text-align: center;
+}
+.clip{
+	width: 70%;
+	margin: auto;
+}
+.clip img{
+	width: 100%;
+}
+
 @media(max-width:425px){
 .header-button a{
 	width: 30%;
