@@ -108,6 +108,9 @@ border-color: transparent;
 	top: 5px;
 	width: 70px ;
 }
+.graphik img{
+	width: 100%;
+}
 .strip{
 	border-bottom: 2px solid whitesmoke;
 	margin: 80px 80px;
@@ -117,28 +120,30 @@ border-color: transparent;
 	margin: auto;
 	text-align: center;
 }
+.subtitle p{
+	font-size: 13px;
+	color: darkgray;
+}
 .container{
 	margin-top: 100px;
+}
+.cells-content{
+	width: 100%;
 }
 .row{
 	padding: 0px 15px 0px 15px;
 	width: 100%;
 }
- .row-aim{
-	width: 70%;
-	margin: 60px auto;
-	text-align: left;
-}
-.row-aim p{
+.row p{
 color: darkgray;
 }
-.aim-defice{
+.defice{
 	width: 50px;
 	height: 1px;
 	background-color: red;
 	margin: 20px 0 20px 0;
 }
-.row-aim a{
+.row-box a{
 	color: red;
 }
 .sources{
@@ -163,53 +168,58 @@ color: darkgray;
 	top: 25px;
 	left: 50%;
 }
-.row-skills{
-	width: 70%;
-	text-align: left;
-	margin-left: 50px;
-}
-.skiils-defice{
-	width: 50px;
-	height: 1px;
-	background-color: red;
-	margin: 30px 0px 30px 0px;
-}
-.row-skills p{
-	color: darkgray;
-}
-.btn-skills{
+.btn{
 	color: white;
 	background-color: red;
 	border-radius: 20px;
-	margin-top: 50px;
-	border:transparent ;
-	padding:10px 40px 10px 40px;
-}
-.row-advise{
-	width: 70%;
-	margin: 60px auto;
-}
-.advice-defice{
-	width: 50px;
-	height: 1px;
-	background-color: red;
-	margin: 20px 0 30px 0;
-}
-.btn-advice{
-	color: white;
-	background-color: red;
-	border-radius: 20px;
-	margin-top: 50px;
+	margin-top: 30px;
 	border:transparent ;
 	padding:10px 40px 10px 40px;
 }
 .clip{
 	width: 70%;
-	margin: 50px auto 50px auto;
+	margin: 50px auto 0 auto;
 }
 .clip img{
 	width: 100%;
 }
+.container{
+	width: 70%;
+	margin-top: 50px;
+}
+.row-recomend{
+	position: relative;
+}
+.row-recomend img{
+	width: 30px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.row-recomend h4{
+	font-size: 12px; ;
+}
+.row-recomend p{
+	color: darkgray;
+	font-size: 10px;
+}
+.meaning{
+	padding-left: 50px;
+}
+.meaning p{
+	border-bottom: 1px solid darkgray;
+	padding-bottom: 10px;
+}
+.social{
+	padding-right: 70px;
+}
+.long-defise{
+	width: 300px;
+	background-color: darkgray;
+	height: 1px;
+	margin: 15px 0 15px 0;
+}
+
 
 @media(max-width:425px){
 .header-button a{
