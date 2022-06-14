@@ -19,7 +19,7 @@
 	border: transparent;
 	margin-top: 20px;
 }
-.header-navbar-right-button a{
+.header-red-button a{
 	padding: 5px 5px !important;
 	color: brown;
 	text-transform: capitalize;
@@ -30,7 +30,7 @@
 .size{
 	border: 2px solid transparent;
 }
-.header-navbar-right-button{
+.header-red-button{
 	border: 2px solid red;
 	border-radius: 30px;
 	margin-top: 10px;
@@ -73,17 +73,18 @@ border-color: transparent;
 	border-radius: 20px;
 	margin: 20px auto;
 	position: relative;
-	height: 80px;
 	width: 80%;
 }
 .header-chat p{
 	width: 80%;
-	margin: 10px auto;
 }
 .chat-left{
 	text-align: left;
 	position: absolute;
 	left: -60px;
+	min-height: 80px;
+	padding-top: 10px;
+	padding-left: 10%;
 }
 .chat-left p{
 	padding: 5px;
@@ -92,6 +93,9 @@ border-color: transparent;
 	text-align: left;
 	position: absolute;
 	right: -60px;
+	min-height: 80px;
+	padding-top: 10px;
+	padding-left: 10%;
 }
 .chat-left img{
 	position: absolute;
@@ -270,8 +274,48 @@ color: black !important;
 }
 .icons img{
 	width: 15px;
-} 
+}
 
+@media(max-width:1024px){
+	.search{
+		width: 70%;
+	}
+	.submit{
+		width: 30%;
+	}
+}
+
+@media(max-width:768px){
+	.header-search{
+		width: 80%;
+		}	
+		.header-chat{
+			width: 70%;
+		}
+		.chat-left{
+			position: absolute;
+			left: 0;
+		}
+		.chat-right{
+			position: absolute;
+			right: 0;
+		}
+		.container{
+			width: 100%;
+		}
+		.container-subtitle{
+			width: 100%;
+		}
+		.row-container-recomend{
+			text-align: center;
+		}
+		.row-container-recomend img{
+		position: unset;
+		}
+		.icons{
+			text-align: center;
+		}
+		}
 
 @media(max-width:425px){
 .header-button a{
@@ -300,28 +344,42 @@ color: black !important;
 .submit{
 	width: 30%;
 }
+.icons{
+	text-align: center;
 }
-@media(max-width:768px){
-.header-search{
-	width: 80%;
-	}	
-	.header-chat{
-		width: 70%;
+.container-strip{
+	margin: 40px 40px;
+}
+}
+@media(max-width:375px){
+	.header-title{
+		width: 80%;
 	}
-	.chat-left{
-		position: absolute;
-		left: 0;
-	}
-	.chat-right{
-		position: absolute;
-		right: 0;
-}
-}
-@media(max-width:1024px){
 	.search{
-		width: 70%;
+		width: 60%;
 	}
 	.submit{
-		width: 30%;
+		width: 40%;
+	}
+	.meaning{
+		padding-right: 50px;
+	}
+	.container-social{
+		padding: 0;
+	}
+	.container-strip{
+		margin: 20px 20px;
 	}
 }
+@media(max-width:320px){
+	.container-clip{
+		width: 80%;
+	}
+	.meaning{
+	text-align: left;
+	padding-right: 30px;
+	}
+	.container-social{
+		padding: 0;
+	}
+	}
