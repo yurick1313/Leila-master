@@ -19,21 +19,24 @@
 	border: transparent;
 	margin-top: 20px;
 }
-.header-red-button a{
+.header-navbar-right-button a{
 	padding: 5px 5px !important;
 	color: brown;
 	text-transform: capitalize;
-}
-.header-navbar-right>li>a{
-	color: white !important;
 } 
 .size{
 	border: 2px solid transparent;
 }
-.header-red-button{
+.header-navbar-right-button{
 	border: 2px solid red;
 	border-radius: 30px;
 	margin-top: 10px;
+}
+.header-links{
+	color: white !important;
+}
+.header-link-red{
+	color: red !important;
 }
 .header-title{
 	width: 60%;
